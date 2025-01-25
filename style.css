@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jersey 25', Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body {
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.topo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Container-topo{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 900px;
+    height: 150px;
+}
+
+.Container-topo>div {
+    padding: 10px;
+}
+
+.Container-topo>div p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.Container-topo div input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
