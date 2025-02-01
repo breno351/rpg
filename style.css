@@ -44,3 +44,149 @@ body {
     padding-left: 10px;
 }
 
+.container-conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.sessao-conteudo-principal {
+    width: 900px;
+    height: 600px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    padding: 50px  0px;
+}
+.container-modificadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+.container-modificadores>div p{
+    text-align: center;
+    font-weight: bold;
+}
+
+ .container-modificadores>div input{
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+ } 
+
+
+.container-vms-img{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-vms {
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.container-vms>div p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.container-vms>div input{
+    border-radius: 5px;
+    height: 30px;
+    width: 95%;
+    padding: 5px;
+}
+
+.container-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img img {
+    width: 80%;
+    height: 100%;
+    padding-left: 50px;
+}
+
+.container-biografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-biografia h2{
+    padding-bottom: 15px;
+}
+
+.container-biografia textarea {
+    border-radius: 10px;
+    resize: none;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.sessao-conteudo-secundario {
+    width: 900px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    background-color: whitesmoke;
+}
+
+.sessao-conteudo-secundario>div>h2{
+    padding-bottom: 15px;
+}
+
+.sessao-conteudo-secundario>div>textarea{
+    width: 80%;
+    border-radius: 10px;
+    resize: none;
+}
+
+.container-equipamento {
+    width: 100%;
+    text-align: center;
+}
+
+.container-caracteristica {
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-rodape {
+    width: 900px;
+    background-color: #d4d4d4;
+    text-align: center;
+}
+
+.container-rodape a {
+    list-style: none;
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px;
+}
+
+
+
